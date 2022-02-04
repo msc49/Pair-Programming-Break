@@ -11,3 +11,5 @@ for i in range(BREAKS):
   time.sleep(90*60) # computer asleep for 1.5 hours until we need to open browser
   webbrowser.open("https://www.youtube.com/watch?v=ZJ2tcji7O64", new = 2, autoraise = True)
   #opens this url in a new window every 1.5 hours for a total of two times
+  # new = 2 opens new window if possible
+  #autoraise brings window forward to screen  if possible 
